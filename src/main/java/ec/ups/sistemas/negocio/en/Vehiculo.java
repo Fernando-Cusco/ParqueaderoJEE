@@ -1,6 +1,8 @@
 package ec.ups.sistemas.negocio.en;
 
-public class Vehiculo {
+import java.io.Serializable;
+
+public class Vehiculo implements Serializable{
 	private int id;
 	private String placa;
 	private String marca;

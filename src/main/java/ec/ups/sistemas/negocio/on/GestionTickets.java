@@ -13,7 +13,11 @@ import ec.ups.sistemas.negocio.en.Vehiculo;
 
 @Stateless
 public class GestionTickets implements GestionTicketsRemote{
-
+	
+	public int suma(int a, int b) {
+		return a+b;
+	}
+	
 	@Override
 	public int numeroTicketNext() {
 		TicketDao td = new TicketDao();

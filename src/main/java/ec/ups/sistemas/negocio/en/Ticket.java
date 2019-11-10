@@ -1,6 +1,8 @@
 package ec.ups.sistemas.negocio.en;
 
-public class Ticket {
+import java.io.Serializable;
+
+public class Ticket implements Serializable{
 	private int id;
 	private Vehiculo unVehiculo;
 	private String fecha;

@@ -30,4 +30,6 @@ public interface GestionTicketsRemote {
 	
 	public double calcularValor(int minutos);
 	
+	public int suma(int a, int b);
+	
 }
